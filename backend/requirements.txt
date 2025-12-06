@@ -1,0 +1,11 @@
+
+fastapi
+uvicorn
+gunicorn
+sqlalchemy
+alembic
+asyncpg
+pydantic
+pydantic-settings
+python-dotenv
+greenlet
