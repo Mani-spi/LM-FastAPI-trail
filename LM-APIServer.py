@@ -116,7 +116,7 @@ async def get_privileges() -> list[dict[str, str]]:
     ]
 
 
-# ----------------- Pydantic Schemas -----------------
+# ----------------- Pydantic Schema's ------------------
 # Customers
 class CustomerCreate(BaseModel):
     name: str
