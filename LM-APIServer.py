@@ -345,7 +345,7 @@ class EncryptedLicenseCreate(BaseModel):
 # ----------------- Root -----------------
 @app.get("/")
 def read_root():
-    return {"message": "Server is running!"}
+    return {"message": "FastAPI-Server is running !"}
 
 
 # ----------------- CRUD Routes -----------------
